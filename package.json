@@ -1,0 +1,21 @@
+{
+  "name": "api-proxy",
+  "version": "1.0.0",
+  "description": "简单的API反向代理，仅保留Authorization和Content-Type请求头",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "private": true
+}
